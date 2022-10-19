@@ -122,6 +122,38 @@ body{
     transition: .5s;
 }
 
+/* Tickets*/
+
+/*Section categories*/
+.categories{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.student, .trainee, .junior{
+    width: 30rem;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+/*Section form*/
+.form-buy-tickets{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.form-input{
+    height: 40px;
+    border-radius: none;
+}
+
+
 /*Responsive Desing*/
 @media all and (max-width: 763px) {
     /*Section intro*/
