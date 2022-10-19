@@ -132,6 +132,7 @@ body{
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+    height: 50%;
 }
 .student, .trainee, .junior{
     width: 30rem;
@@ -145,6 +146,7 @@ body{
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+    height: 40vh;
 }
 
 
@@ -155,7 +157,7 @@ body{
 
 
 /*Responsive Desing*/
-@media all and (max-width: 763px) {
+@media all and (max-width: 920px) {
     /*Section intro*/
     .intro{
 
@@ -214,6 +216,18 @@ body{
     }
     .form-name, .form-lastname{
         width: 100%;
+    }
+
+    .categories{
+        display: flex;
+        flex-wrap: wrap;
+        height: 50%;
+    }
+    .student, .trainee, .junior{
+        width: 80%;
+    }
+    .form-buy-tickets{
+        height: 50%;
     }
     /*Footer*/
     .footer{
