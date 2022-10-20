@@ -156,6 +156,10 @@ body{
     border-radius: none;
 }
 
+.total{
+    background-color: #214e7a;
+}
+
 
 /*Responsive Desing*/
 @media all and (max-width: 920px) {

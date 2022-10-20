@@ -60,7 +60,7 @@ function BuyTickets(){
                     </div>
                     <div class="row mb-3">
                         <div class="col">
-                            <p class="form-control" id="total"> Total a Pagar: $ <span id="result">  </span></p>   
+                            <p class="form-control text-primary fw-bolder bg-info bg-opacity-25" id="total" > Total a Pagar: $ <span id="result">  </span></p>   
                                 
                         </div>
                     </div>
