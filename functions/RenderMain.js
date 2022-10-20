@@ -1,5 +1,5 @@
 function RenderMain(url){
-    if (url.includes("/index.html")){
+    if (url.includes("/index.html") || url.includes("/tp_integrador/")){
         const main = document.createElement('main');
         document.getElementById('body').appendChild(main);
         main.innerHTML = Main();
