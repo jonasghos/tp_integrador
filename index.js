@@ -1,9 +1,6 @@
 function Render(){
 
     const url = window.location.pathname;
-
-    console.log(url);
-
         const header = document.createElement('header');
         document.getElementById('body').appendChild(header);
 
